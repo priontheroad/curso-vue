@@ -13,11 +13,8 @@
 
                     <router-link to="/"  class="btn mr-5">Início</router-link>
                     <router-link to="/news" class="btn mr-5">Notícias</router-link>
-
-                    <!-- <a href="#" @click.prevent="$emit('change-component', 'home')" class="btn mr-5">Início</a>
-                    <a href="#" @click.prevent="$emit('change-component', 'news')" class="btn mr-5">Notícias</a> -->
-                    <a href="" class="btn mr-5">Classificações</a>
-
+                    <router-link to="/ranking" class="btn mr-5">Classificação</router-link>
+                    
                     <select name="championship" id="select-championship" class="form-control" @change="$emit('select-championship', $event.target.value)">
                         <option value="">Selecione um Campeonato</option>
                         <option value="Campeonato Brasileiro" selected>Campeonato Brasileiro</option>

@@ -9,7 +9,11 @@
         :news-date="notice.date"
       >
         <template #title>
-          <h2 @click="goToPage('/notice')">{{ notice.title }}</h2>
+          <router-link
+            :to="{ name: 'notice', params: { idnotice: notice.id } }"
+            tag="h2"
+            >{{ notice.title }}</router-link
+          >
         </template>
 
         <p>{{ notice.content | truncate(200) }}</p>
@@ -31,11 +35,6 @@ export default {
   },
   computed: {
     ...mapGetters({ news: "getNews" })
-  },
-  methods: {
-    goToPage(page) {
-      this.$router.push(page);
-    }
   }
 };
 </script>
@@ -44,6 +43,6 @@ export default {
 section {
   padding: 50px 0;
   margin-top: 25px;
-  background-color: #f37520;
+  background-color: #838b8b;
 }
 </style>
