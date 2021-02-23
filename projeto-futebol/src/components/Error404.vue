@@ -1,15 +1,12 @@
 <template>
-<section>
+  <section>
     <div class="container text-center">
-        <h1>404 - Página não encontrada :(</h1>
+      <h1>404 - Página não encontrada :(</h1>
     </div>
-</section>
-    
+  </section>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
 section {
