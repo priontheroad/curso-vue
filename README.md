@@ -22,5 +22,5 @@
 * Instalar o NodeJs no projeto
 * Executar o comando npm install
 * Executar o comando npm run serve 
-* Acessar a url: localhost:8080
+* Acessar a url: localhost:8080 ou a url que estiver indicada no console do cmd
 
