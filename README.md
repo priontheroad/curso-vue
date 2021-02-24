@@ -17,3 +17,10 @@
 
 ## Material produzido a partir do Curso Avançado Vue JS ministrado pela HCode Treinamentos.
 
+## Como configurar o projeto via npm
+
+* Instalar o NodeJs no projeto
+* Executar o comando npm install
+* Executar o comando npm run serve 
+* Acessar a url: localhost:8080
+
